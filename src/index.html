@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+    <link rel="stylesheet" href="./css/contacts.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form style="margin-bottom: 30px" class="form">
+      <div class="inputBox">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" class="input" required />
+      </div>
+      <div class="inputBox">
+        <label for="number">Phone number</label>
+        <input type="number" name="number" id="number" class="input" required />
+      </div>
+      <div class="inputBox">
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" class="input" required />
+      </div>
+      <div class="inputBox">
+        <label for="image">Image link</label>
+        <input type="text" name="image" id="image" class="input" required />
+      </div>
+
+      <button type="submit" class="addContactBtn">Add contact</button>
+    </form>
+    <ul class="contacts"></ul>
+    <script type="module" src="./main.js"></script>
+    <!-- <script type="module" src="./services/api.js"></script> -->
+  </body>
+</html>

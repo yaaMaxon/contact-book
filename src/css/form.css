@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  margin-bottom: 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.input {
+  width: 150px;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,21 @@
+.deleteContactBtn,
+.addContactBtn {
+  border-radius: 8px;
+  border: none;
+  background: rgb(121, 73, 255);
+
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 12px;
+
+  cursor: pointer;
+}
+
+.deleteContactBtn:hover,
+.addContactBtn:hover {
+  background: rgb(105, 52, 249);
+  box-shadow: 0px 2px 3px rgba(105, 52, 249, 0.4);
+  transform: translateY(-2px);
+}
